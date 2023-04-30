@@ -2,6 +2,15 @@ import org.apache.jcs.JCS;
 import org.apache.jcs.access.exception.CacheException;
 import java.util.List;
 
+/**
+ * Dependency
+ * <dependency>
+    <groupId>org.apache.jcs</groupId>
+    <artifactId>jcs</artifactId>
+    <version>2.3</version>
+</dependency>
+ */
+
 public class CacheList {
     private static final String CACHE_REGION = "myCacheRegion";
 
