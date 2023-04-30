@@ -36,14 +36,16 @@ def get_dividend_yield(symbol):
         print("Failed to retrieve data")
         return None
 
+# stock symbole
 symbol = "AAPL"
+# time stamp 
+# TODO use a list if possible for multiple stocks
 start_date = "946684800" # January 1, 2000
 end_date = "1654060800" # February 1, 2022
 
 historical_data = get_historical_data(symbol, start_date, end_date)
 current_price = get_current_price(symbol)
 dividend_yield = get_dividend_yield(symbol)
-
 
 # run
 print(f"Stock: {symbol}")
