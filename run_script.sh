@@ -7,7 +7,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Define the Python script to run
-script_path=/path/to/project/main.py
+script_path="/service1"
 
 # Run the Python script
 python $script_path
